@@ -14,7 +14,10 @@ class UserController extends Controller
 	return view('admin.pages.user.daftar',['data'=>$data]);
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
+=======
+>>>>>>> c3ef07fcdcda99f9c9a154becd23aaad128a8511
 
 	public function add()
 	{
@@ -33,5 +36,8 @@ class UserController extends Controller
 		
 		return 'Fungsi Save';
 	}
+<<<<<<< HEAD
+>>>>>>> c3ef07fcdcda99f9c9a154becd23aaad128a8511
+=======
 >>>>>>> c3ef07fcdcda99f9c9a154becd23aaad128a8511
 }

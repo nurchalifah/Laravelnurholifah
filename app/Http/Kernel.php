@@ -57,7 +57,11 @@ class Kernel extends HttpKernel
         'guest' => \App\Http\Middleware\RedirectIfAuthenticated::class,
         'throttle' => \Illuminate\Routing\Middleware\ThrottleRequests::class,
 <<<<<<< HEAD
+<<<<<<< HEAD
         'akses.admin' =>\App\Http\Middleware\AksesAdmin::class,
+=======
+        'akses.admin'=>\App\Http\Middleware\AksesAdmin::class,
+>>>>>>> c3ef07fcdcda99f9c9a154becd23aaad128a8511
 =======
         'akses.admin'=>\App\Http\Middleware\AksesAdmin::class,
 >>>>>>> c3ef07fcdcda99f9c9a154becd23aaad128a8511

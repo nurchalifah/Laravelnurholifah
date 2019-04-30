@@ -6,6 +6,10 @@ use Closure;
 use Auth;
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> c3ef07fcdcda99f9c9a154becd23aaad128a8511
 =======
 
 >>>>>>> c3ef07fcdcda99f9c9a154becd23aaad128a8511
@@ -22,7 +26,11 @@ class AksesAdmin
     {
         if(Auth::user()->akses == 'admin'){
 <<<<<<< HEAD
+<<<<<<< HEAD
             return $next($request);
+=======
+        return $next($request);
+>>>>>>> c3ef07fcdcda99f9c9a154becd23aaad128a8511
 =======
         return $next($request);
 >>>>>>> c3ef07fcdcda99f9c9a154becd23aaad128a8511
@@ -31,8 +39,12 @@ class AksesAdmin
     return abort(404);
 }
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 }
+=======
+}
+>>>>>>> c3ef07fcdcda99f9c9a154becd23aaad128a8511
 =======
 }
 >>>>>>> c3ef07fcdcda99f9c9a154becd23aaad128a8511

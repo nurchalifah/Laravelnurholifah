@@ -25,12 +25,18 @@ Route::prefix('admin')->group(function(){
 
 		Route::get('/','UserController@daftar')->name('admin.user')->middleware('akses.admin');
 <<<<<<< HEAD
+<<<<<<< HEAD
 		
 =======
+=======
+>>>>>>> c3ef07fcdcda99f9c9a154becd23aaad128a8511
 
 		Route::get('/add','UserController@add')->name('admin.user.add')->middleware('akses.admin');
 		Route::post('/add','UserController@save')->middleware('akses.admin');
 
+<<<<<<< HEAD
+>>>>>>> c3ef07fcdcda99f9c9a154becd23aaad128a8511
+=======
 >>>>>>> c3ef07fcdcda99f9c9a154becd23aaad128a8511
 		Route::get('/setting','UserSettingController@form')->name('admin.user.setting');
 		Route::post('/setting','UserSettingController@update');

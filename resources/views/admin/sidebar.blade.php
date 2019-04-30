@@ -6,10 +6,18 @@
           </a>
         </li>
 <<<<<<< HEAD
+<<<<<<< HEAD
 
         @if(Auth::user()->akses == 'admin')
         <li class="nav-item">
           <a class="nav-link" href="{{route('admin.user')}}">
+=======
+      
+
+        @if(Auth::user()->akses == 'admin')
+        <li class="nav-item">
+          <a href="nav-link" href="{{route('admin.user')}}">
+>>>>>>> c3ef07fcdcda99f9c9a154becd23aaad128a8511
 =======
       
 
