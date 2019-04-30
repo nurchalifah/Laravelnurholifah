@@ -1,4 +1,4 @@
-<?php
+<?php 
 
 /*
 |--------------------------------------------------------------------------
@@ -22,7 +22,16 @@ Route::prefix('admin')->group(function(){
 	})->name('admin.home');
 
 	Route::prefix('user')->group(function(){
-		Route::get('/','UserController@daftar')->name('admin.user');
+
+		Route::get('/','UserController@daftar')->name('admin.user')->middleware('akses.admin');
+<<<<<<< HEAD
+		
+=======
+
+		Route::get('/add','UserController@add')->name('admin.user.add')->middleware('akses.admin');
+		Route::post('/add','UserController@save')->middleware('akses.admin');
+
+>>>>>>> c3ef07fcdcda99f9c9a154becd23aaad128a8511
 		Route::get('/setting','UserSettingController@form')->name('admin.user.setting');
 		Route::post('/setting','UserSettingController@update');
 	});
