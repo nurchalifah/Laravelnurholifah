@@ -63,6 +63,7 @@ class KategoriController extends Controller
     public function delete(Request $req)
     {
         $result = Kategori::find($req->id);
+<<<<<<< HEAD
 
         if ( $result->delete() ) {
             return back()->with('result','delete');
@@ -72,3 +73,12 @@ class KategoriController extends Controller
     }
 }
 
+=======
+         if ( $result->delete() ) {
+            return back()->with('result','delete');
+        } else {
+            return back()->with('result','fail');
+        }
+    }
+}
+>>>>>>> eps-29

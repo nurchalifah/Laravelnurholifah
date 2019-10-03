@@ -40,6 +40,24 @@
 </div>
 @endif
 
+@if( session('result') == 'deletee' )
+<div class="alert alert-success alert-dismissible fade show">
+	<strong>Deleted !</strong>Berhasil dihapus.
+	<button type="button" class="close" data-dismiss="alert">
+		&times;
+	</button>
+</div>
+@endif
+
+@if( session('result') == 'fail-delete' )
+<div class="alert alert-danger alert-dismissible fade show">
+	<strong>Failed !</strong>Gagal dihapus.
+	<button type="button" class="close" data-dismiss="alert">
+		&times;
+	</button>
+</div>
+@endif
+
 <div class="row">
 	<div class="col-md-6 mb-3">
 		<a href="{{ route('admin.kategori.add') }}" class="btn btn-primary">[+] Tambah</a>
@@ -123,15 +141,26 @@
 <script type="text/javascript">
 $(function(){
 	$('.btn-trash').click(function(){
+<<<<<<< HEAD
 		id = $(this).attr('data-id');
+=======
+		id = $(this).attr('data-id');		
+>>>>>>> eps-29
 		$('#input-id').val(id);
 		$('#deleteModal').modal('show');
 	});
 
 	$('.btn-delete').click(function(){
+<<<<<<< HEAD
 		alert($('#input-id').val());
 	});
 
 })
+=======
+		$('#form-delete').submit();
+	});
+
+});
+>>>>>>> eps-29
 </script>
 @endpush
