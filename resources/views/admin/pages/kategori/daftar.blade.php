@@ -141,15 +141,36 @@
 <script type="text/javascript">
 $(function(){
 	$('.btn-trash').click(function(){
+<<<<<<< HEAD
 		id = $(this).attr('data-id');		
+=======
+<<<<<<< HEAD
+		id = $(this).attr('data-id');
+=======
+		id = $(this).attr('data-id');		
+>>>>>>> eps-29
+>>>>>>> e8d1c9960c9c083443976c5cde0aaebda2d2368c
 		$('#input-id').val(id);
 		$('#deleteModal').modal('show');
 	});
 
 	$('.btn-delete').click(function(){
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+		alert($('#input-id').val());
+	});
+
+})
+=======
+>>>>>>> e8d1c9960c9c083443976c5cde0aaebda2d2368c
 		$('#form-delete').submit();
 	});
 
 });
+<<<<<<< HEAD
+=======
+>>>>>>> eps-29
+>>>>>>> e8d1c9960c9c083443976c5cde0aaebda2d2368c
 </script>
 @endpush
