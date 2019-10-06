@@ -49,11 +49,20 @@ Route::group(['prefix'=>'admin','middleware'=>['auth']], function(){
 		Route::get('/edit/{id}','KategoriController@edit')->name('admin.kategori.edit');
 		Route::post('/edit/{id}','KategoriController@update');
 		Route::delete('/','KategoriController@delete')->middleware('akses.admin');
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c02110affd1f30b1ae7b10f510e881914cec23d
 	});
 
 	/* Produk*/
 	Route::group(['prefix'=>'produk','middleware'=>'akses.admin'], function(){
 		Route::get('/','ProdukController@daftar')->name('admin.produk');
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> a31952c29e9c512f67aebb7d7aa6274f36f04f50
+>>>>>>> 6c02110affd1f30b1ae7b10f510e881914cec23d
 	});
 
 });

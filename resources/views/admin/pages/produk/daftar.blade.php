@@ -3,6 +3,7 @@
 @section('content')
 <h1>Produk</h1>
 <hr>
+<<<<<<< HEAD
 
 <!-- Baris Tambah dan Pencarian -->
 <div class="row">
@@ -80,4 +81,6 @@
 	$data->appends(request()->only('keyword'))
 	->links('vendor.pagination.bootstrap-4')
 }}
+=======
+>>>>>>> 6c02110affd1f30b1ae7b10f510e881914cec23d
 @endsection
