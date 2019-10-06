@@ -63,10 +63,50 @@ class KategoriController extends Controller
     public function delete(Request $req)
     {
         $result = Kategori::find($req->id);
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+        if ( $result->delete() ) {
+            return back()->with('result','delete');
+        } else {
+            return back()->with('result','fail-delete');
+        }
+    }
+}
+
+=======
+>>>>>>> e8d1c9960c9c083443976c5cde0aaebda2d2368c
+>>>>>>> a31952c29e9c512f67aebb7d7aa6274f36f04f50
+>>>>>>> 6c02110affd1f30b1ae7b10f510e881914cec23d
+>>>>>>> 366ef1b06888861dd64f4e61ff6b7975961b58ff
          if ( $result->delete() ) {
             return back()->with('result','delete');
         } else {
             return back()->with('result','fail');
         }
     }
+<<<<<<< HEAD
 }
+=======
+<<<<<<< HEAD
+}
+=======
+<<<<<<< HEAD
+}
+=======
+<<<<<<< HEAD
+}
+=======
+}
+>>>>>>> eps-29
+>>>>>>> e8d1c9960c9c083443976c5cde0aaebda2d2368c
+>>>>>>> a31952c29e9c512f67aebb7d7aa6274f36f04f50
+>>>>>>> 6c02110affd1f30b1ae7b10f510e881914cec23d
+>>>>>>> 366ef1b06888861dd64f4e61ff6b7975961b58ff
