@@ -3,6 +3,10 @@
 @section('content')
 <h1>Produk</h1>
 <hr>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 2b159662351026b520a702d1e6de5789bfcdd07f
 
 <!-- Alert jika berhasil disimpan -->
 @if(session('result') == 'success')
@@ -13,12 +17,47 @@
 	</button>
 </div>
 @endif
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 366ef1b06888861dd64f4e61ff6b7975961b58ff
+>>>>>>> df462f54ee3bb10537db8fd3d8d7bfb1f4a17028
+>>>>>>> 2d24d056056ee0a08760bbd892dd939377251baa
+>>>>>>> 1b3f73d7c01efdf7778310aab377db3e11a9a5f9
+>>>>>>> 2b159662351026b520a702d1e6de5789bfcdd07f
 
 <!-- Baris Tambah dan Pencarian -->
 <div class="row">
 	<!-- Tombol Tambah -->
 	<div class="col-md-6 mb-3">
+<<<<<<< HEAD
 		<a href="{{ route('admin.produk.add') }}" class="btn btn-primary">[+] Tambah</a>
+=======
+<<<<<<< HEAD
+		<a href="{{ route('admin.produk.add') }}" class="btn btn-primary">[+] Tambah</a>
+=======
+<<<<<<< HEAD
+		<a href="{{ route('admin.produk.add') }}" class="btn btn-primary">[+] Tambah</a>
+=======
+<<<<<<< HEAD
+		<a href="{{ route('admin.produk.add') }}" class="btn btn-primary">[+] Tambah</a>
+=======
+<<<<<<< HEAD
+		<a href="{{ route('admin.produk.add') }}" class="btn btn-primary">[+] Tambah</a>
+=======
+		<a href="#" class="btn btn-primary">[+] Tambah</a>
+>>>>>>> 366ef1b06888861dd64f4e61ff6b7975961b58ff
+>>>>>>> df462f54ee3bb10537db8fd3d8d7bfb1f4a17028
+>>>>>>> 2d24d056056ee0a08760bbd892dd939377251baa
+>>>>>>> 1b3f73d7c01efdf7778310aab377db3e11a9a5f9
+>>>>>>> 2b159662351026b520a702d1e6de5789bfcdd07f
 	</div>
 
 	<!-- formulir pencarian -->
@@ -62,13 +101,21 @@
 		<!-- Kolom Tombol -->
 		<td>
 			<!-- Tombol Edit -->
+<<<<<<< HEAD
 			<a href="{{ route('admin.produk.edit',['id'=>$dt->id]) }}"
+=======
+			<a href="#"
+>>>>>>> 2b159662351026b520a702d1e6de5789bfcdd07f
 			class="btn btn-success btn-sm">
 				<i class="fa fa-w fa-edit"></i>
 			</a>
 
 			<!-- Tombol Edit Gambar -->
+<<<<<<< HEAD
 			<a href="{{ route('admin.produk.edit',['id'=>$dt->id]) }}"
+=======
+			<a href="#"
+>>>>>>> 2b159662351026b520a702d1e6de5789bfcdd07f
 			class="btn btn-info btn-sm">
 				<i class="fa fa-w fa-edit"></i>
 			</a>
@@ -90,4 +137,21 @@
 	$data->appends(request()->only('keyword'))
 	->links('vendor.pagination.bootstrap-4')
 }}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6c02110affd1f30b1ae7b10f510e881914cec23d
+>>>>>>> 366ef1b06888861dd64f4e61ff6b7975961b58ff
+>>>>>>> df462f54ee3bb10537db8fd3d8d7bfb1f4a17028
+>>>>>>> 2d24d056056ee0a08760bbd892dd939377251baa
+>>>>>>> 1b3f73d7c01efdf7778310aab377db3e11a9a5f9
+>>>>>>> 2b159662351026b520a702d1e6de5789bfcdd07f
 @endsection

@@ -141,15 +141,106 @@
 <script type="text/javascript">
 $(function(){
 	$('.btn-trash').click(function(){
+<<<<<<< HEAD
 		id = $(this).attr('data-id');		
+=======
+<<<<<<< HEAD
+		id = $(this).attr('data-id');		
+=======
+<<<<<<< HEAD
+		id = $(this).attr('data-id');		
+=======
+<<<<<<< HEAD
+		id = $(this).attr('data-id');		
+=======
+<<<<<<< HEAD
+		id = $(this).attr('data-id');		
+=======
+<<<<<<< HEAD
+		id = $(this).attr('data-id');		
+=======
+<<<<<<< HEAD
+		id = $(this).attr('data-id');		
+=======
+<<<<<<< HEAD
+		id = $(this).attr('data-id');		
+=======
+<<<<<<< HEAD
+		id = $(this).attr('data-id');
+=======
+		id = $(this).attr('data-id');		
+>>>>>>> eps-29
+>>>>>>> e8d1c9960c9c083443976c5cde0aaebda2d2368c
+>>>>>>> a31952c29e9c512f67aebb7d7aa6274f36f04f50
+>>>>>>> 6c02110affd1f30b1ae7b10f510e881914cec23d
+>>>>>>> 366ef1b06888861dd64f4e61ff6b7975961b58ff
+>>>>>>> df462f54ee3bb10537db8fd3d8d7bfb1f4a17028
+>>>>>>> 2d24d056056ee0a08760bbd892dd939377251baa
+>>>>>>> 1b3f73d7c01efdf7778310aab377db3e11a9a5f9
+>>>>>>> 2b159662351026b520a702d1e6de5789bfcdd07f
 		$('#input-id').val(id);
 		$('#deleteModal').modal('show');
 	});
 
 	$('.btn-delete').click(function(){
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+		alert($('#input-id').val());
+	});
+
+})
+=======
+>>>>>>> e8d1c9960c9c083443976c5cde0aaebda2d2368c
+>>>>>>> a31952c29e9c512f67aebb7d7aa6274f36f04f50
+>>>>>>> 6c02110affd1f30b1ae7b10f510e881914cec23d
+>>>>>>> 366ef1b06888861dd64f4e61ff6b7975961b58ff
+>>>>>>> df462f54ee3bb10537db8fd3d8d7bfb1f4a17028
+>>>>>>> 2d24d056056ee0a08760bbd892dd939377251baa
+>>>>>>> 1b3f73d7c01efdf7778310aab377db3e11a9a5f9
+>>>>>>> 2b159662351026b520a702d1e6de5789bfcdd07f
 		$('#form-delete').submit();
 	});
 
 });
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+>>>>>>> eps-29
+>>>>>>> e8d1c9960c9c083443976c5cde0aaebda2d2368c
+>>>>>>> a31952c29e9c512f67aebb7d7aa6274f36f04f50
+>>>>>>> 6c02110affd1f30b1ae7b10f510e881914cec23d
+>>>>>>> 366ef1b06888861dd64f4e61ff6b7975961b58ff
+>>>>>>> df462f54ee3bb10537db8fd3d8d7bfb1f4a17028
+>>>>>>> 2d24d056056ee0a08760bbd892dd939377251baa
+>>>>>>> 1b3f73d7c01efdf7778310aab377db3e11a9a5f9
+>>>>>>> 2b159662351026b520a702d1e6de5789bfcdd07f
 </script>
 @endpush
