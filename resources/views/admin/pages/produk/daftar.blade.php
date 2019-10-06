@@ -3,12 +3,27 @@
 @section('content')
 <h1>Produk</h1>
 <hr>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 366ef1b06888861dd64f4e61ff6b7975961b58ff
+>>>>>>> df462f54ee3bb10537db8fd3d8d7bfb1f4a17028
 
 <!-- Baris Tambah dan Pencarian -->
 <div class="row">
 	<!-- Tombol Tambah -->
 	<div class="col-md-6 mb-3">
+<<<<<<< HEAD
 		<a href="{{ route('admin.produk.add') }}" class="btn btn-primary">[+] Tambah</a>
+=======
+<<<<<<< HEAD
+		<a href="{{ route('admin.produk.add') }}" class="btn btn-primary">[+] Tambah</a>
+=======
+		<a href="#" class="btn btn-primary">[+] Tambah</a>
+>>>>>>> 366ef1b06888861dd64f4e61ff6b7975961b58ff
+>>>>>>> df462f54ee3bb10537db8fd3d8d7bfb1f4a17028
 	</div>
 
 	<!-- formulir pencarian -->
@@ -80,4 +95,12 @@
 	$data->appends(request()->only('keyword'))
 	->links('vendor.pagination.bootstrap-4')
 }}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 6c02110affd1f30b1ae7b10f510e881914cec23d
+>>>>>>> 366ef1b06888861dd64f4e61ff6b7975961b58ff
+>>>>>>> df462f54ee3bb10537db8fd3d8d7bfb1f4a17028
 @endsection
