@@ -18,6 +18,7 @@
 						<!-- Input gambar -->
 						<div class="form-group form-label-group">
 							<input type="file" name="gambar"
+<<<<<<< HEAD
 							class="form-control {{$errors->has('gambar')?'is-invalid':''}}"
 							accept="image/*"
 							id="iGambar" placeholder="Gambar Produk" required>
@@ -25,10 +26,18 @@
 							@if($errors->has('gambar'))
 							<div class="invalid-feedback">{{$errors->first('gambar')}}</div>
 							@endif
+=======
+							class="form-control"
+							accept="image/*"
+							id="iGambar" placeholder="Gambar Produk" required>
+							<label for="iGambar">Gambar Produk</label>
+
+>>>>>>> 2d24d056056ee0a08760bbd892dd939377251baa
 						</div>
 
 						<!-- input kode produk -->
 						<div class="form-group form-label-group">
+<<<<<<< HEAD
 						<input type="text" name="kode"
 						class="form-control {{$errors->has('kode')?'is-invalid':''}}"
 						value="{{ old('kode') }}"
@@ -38,10 +47,19 @@
 						<div class="invalid-feedback">{{$errors->first('kode')}}</div>
 						@endif
 					</div>
+=======
+							<input type="text" name="kode"
+							class="form-control"
+							value="{{ old('kode') }}"
+							id="iKode" placeholder="Kode Produk" required>
+							<label for="iKode">Kode Produk</label>
+						</div>
+>>>>>>> 2d24d056056ee0a08760bbd892dd939377251baa
 
 						<!-- input nama produk -->
 						<div class="form-group form-label-group">
 							<input type="text" name="nama_produk"
+<<<<<<< HEAD
 							class="form-control {{$errors->has('nama_produk')?'is-invalid':''}}"
 							value="{{ old('nama_produk') }}"
 							id="iNamaProduk" placeholder="Nama Produk" required>
@@ -49,11 +67,18 @@
 							@if($errors->has('nama_produk'))
 							<div class="invalid-feedback">{{$errors->first('nama_produk')}}</div>
 							@endif
+=======
+							class="form-control"
+							value="{{ old('nama_produk') }}"
+							id="iNamaProduk" placeholder="Nama Produk" required>
+							<label for="iNamaProduk">Nama Produk</label>
+>>>>>>> 2d24d056056ee0a08760bbd892dd939377251baa
 						</div>
 
 						<!-- input harga -->
 						<div class="form-group form-label-group">
 							<input type="number" name="harga"
+<<<<<<< HEAD
 							class="form-control {{$errors->has('harga')?'is-invalid':''}}"
 							value="{{ old('harga') }}"
 							id="iHarga" placeholder="Harga" required>
@@ -61,11 +86,18 @@
 							@if($errors->has('harga'))
 							<div class="invalid-feedback">{{$errors->first('harga')}}</div>
 							@endif
+=======
+							class="form-control"
+							value="{{ old('harga') }}"
+							id="iHarga" placeholder="Harga" required>
+							<label for="iHarga">Harga</label>
+>>>>>>> 2d24d056056ee0a08760bbd892dd939377251baa
 						</div>
 
 						<!-- input stok -->
 						<div class="form-group form-label-group">
 							<input type="number" name="stok"
+<<<<<<< HEAD
 							class="form-control {{$errors->has('stok')?'is-invalid':''}}"
 							value="{{ old('stok') }}"
 							id="iStok" placeholder="Stok" required>
@@ -73,11 +105,18 @@
 							@if($errors->has('stok'))
 							<div class="invalid-feedback">{{$errors->first('stok')}}</div>
 							@endif
+=======
+							class="form-control"
+							value="{{ old('stok') }}"
+							id="iStok" placeholder="Stok" required>
+							<label for="iStok">Stok</label>
+>>>>>>> 2d24d056056ee0a08760bbd892dd939377251baa
 						</div>
 
 						<!-- input Kategori -->
 						<div class="form-group">
 							<select name="kategori"
+<<<<<<< HEAD
 							class="form-control {{$errors->has('kategori')?'is-invalid':''}}"
 							required>
 							<?php 
@@ -86,13 +125,23 @@
 								<option value="-">Pilih Kategori :</option>
 								@foreach(\App\Kategori::orderBy('nama_kategori','asc')->get() as $d)
 								<option value="{{ $d->id }}" {{$val==$d->id?'selected':''}}>
+=======
+							class="form-control"
+							required>
+								<option value="">Pilih Kategori :</option>
+								@foreach(\App\Kategori::orderBy('nama_kategori','asc')->get() as $d)
+								<option value="{{ $d->id }}">
+>>>>>>> 2d24d056056ee0a08760bbd892dd939377251baa
 									{{ $d->nama_kategori }}
 								</option>
 								@endforeach
 							</select>
+<<<<<<< HEAD
 							@if($errors->has('kategori'))
 							<div class="invalid-feedback">{{$errors->first('kategori')}}</div>
 							@endif
+=======
+>>>>>>> 2d24d056056ee0a08760bbd892dd939377251baa
 						</div>
 
 

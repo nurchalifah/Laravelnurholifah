@@ -49,6 +49,10 @@ Route::group(['prefix'=>'admin','middleware'=>['auth']], function(){
 		Route::get('/edit/{id}','KategoriController@edit')->name('admin.kategori.edit');
 		Route::post('/edit/{id}','KategoriController@update');
 		Route::delete('/','KategoriController@delete')->middleware('akses.admin');
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 2d24d056056ee0a08760bbd892dd939377251baa
 	});
 
 	/* Produk*/
@@ -56,6 +60,33 @@ Route::group(['prefix'=>'admin','middleware'=>['auth']], function(){
 		Route::get('/','ProdukController@daftar')->name('admin.produk');
 		Route::get('/add','ProdukController@add')->name('admin.produk.add');
 		Route::post('/add','ProdukController@save');
+<<<<<<< HEAD
+=======
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 6c02110affd1f30b1ae7b10f510e881914cec23d
+>>>>>>> 366ef1b06888861dd64f4e61ff6b7975961b58ff
+	});
+
+	/* Produk*/
+	Route::group(['prefix'=>'produk','middleware'=>'akses.admin'], function(){
+		Route::get('/','ProdukController@daftar')->name('admin.produk');
+<<<<<<< HEAD
+		Route::get('/add','ProdukController@add')->name('admin.produk.add');
+		Route::post('/add','ProdukController@save');
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> a31952c29e9c512f67aebb7d7aa6274f36f04f50
+>>>>>>> 6c02110affd1f30b1ae7b10f510e881914cec23d
+>>>>>>> 366ef1b06888861dd64f4e61ff6b7975961b58ff
+>>>>>>> df462f54ee3bb10537db8fd3d8d7bfb1f4a17028
+>>>>>>> 2d24d056056ee0a08760bbd892dd939377251baa
 	});
 
 });
